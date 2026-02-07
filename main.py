@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 
+price_data = pd.read_csv("house_prices.csv")
+
 # 1. Enhanced Feature Engineering with Trend & Spatial Placeholders
 def create_settlyfe_features(df):
     # Target: predict price 3 months in future

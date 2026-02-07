@@ -1,0 +1,37 @@
+{
+    "model_type": "XGBoost",
+    "training_date": "2026-02-02 22:23:12",
+    "test_rmse": 0.4207140493481068,
+    "test_mae": 0.2751128688808467,
+    "test_r2": 0.8641922257491714,
+    "test_mape": 15.435092012883848,
+    "features_used": [
+        "MedInc",
+        "HouseAge",
+        "AveRooms",
+        "AveBedrms",
+        "Population",
+        "AveOccup",
+        "Latitude",
+        "Longitude",
+        "rooms_per_household",
+        "bedrooms_ratio",
+        "population_per_household",
+        "location_cluster",
+        "distance_to_SF",
+        "distance_to_LA",
+        "distance_to_SD",
+        "distance_to_nearest_city",
+        "income_category_num"
+    ],
+    "n_training_samples": 16512,
+    "n_test_samples": 4128,
+    "best_params": {
+        "colsample_bytree": 0.6281664523398175,
+        "learning_rate": 0.07267561528460804,
+        "max_depth": 9,
+        "min_child_weight": 6,
+        "n_estimators": 250,
+        "subsample": 0.6560336060946096
+    }
+}
